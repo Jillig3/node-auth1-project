@@ -13,7 +13,7 @@ const server = express();
 server.use(express.json());
 
 server.use(session({
-  name: 'totallygenericname',
+  name: 'chocolatechip',
   secret: 'nevertell',
   saveUninitialized: false,
   resave: false,
